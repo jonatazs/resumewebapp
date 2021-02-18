@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Jônatas Oliveira - Curriculum Vitae</title>
+
+<meta name="viewport" content="width=device-width"/>
+<meta name="description" content="The Curriculum Vitae of Jônatas Oliveira."/>
+<meta charset="UTF-8"> 
+
+<%= csrf_meta_tags %>
+
+<%= csp_meta_tag %>
+<%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+<%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+
+
+<link type="text/css" rel="stylesheet" href="style.css">
+
+
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body id="top">
+<div id="cv" class="instaFade">
+	<div class="mainDetails">
+		<div id="headshot" class="quickFade">
+			<%= image_tag('headshot.jpg', alt: 'Jônatas Oliveira')%>
+		</div>
+		
+		<div id="name">
+			<h1 class="quickFade delayTwo">Jônatas Oliveira</h1>
+			<h2 class="quickFade delayThree">Backend Junior Developer</h2>
+		</div>
+		
+		<div id="contactDetails" class="quickFade delayFour">
+			<ul>
+				<li><a href="mailto:joe@bloggs.com" target="_blank">j.olivasc@outlook.com</a></li>
+				<li><a href="http://www.bloggs.com">jovstech.com</a></li>
+				<li>+5583999206802</li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+	
+	<div id="mainArea" class="quickFade delayFive">
+		<section>
+			<article>
+				<div class="sectionTitle">
+					<h1>Personal Profile</h1>
+				</div>
+				
+				<div class="sectionContent">
+					<p>Jônatas Oliveira is a backend junior developer, with a focus on ruby and java languages. With knowledge in  Springboot(basic), Angular(basic) and nowadays focusing development in ruby on rails. Jônatas graduated with honors in geography from the Federal University of Paraiba-Brazil and nowadays is finishing his master's degree at the Federal University of Rio Grande do Norte. Planning to move to Canada and work as a developer in a full-time position.</p>
+				</div>
+			</article>
+			<div class="clear"></div>
+		</section>
+		<br/>
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Work Experience</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<h2>Administrative Supervisor at GYTTY Distribuidora de Alimentos Ltda</h2>
+					<p class="subDetails">November 2019 - August 2020</p>
+					<p>Management and maintenance of company hardwares and local server of the company.Also responsible for administrative activies in general and organize documents.</p>
+				</article>
+				<br/>
+				<article>
+					<h2>Scientific researcher at Federal University of Paraiba</h2>
+					<p class="subDetails">Frebruary 2015 - November 2018</p>
+					<p> As a paid intern for the goverment I was responsible to be part of scientifics researches about semiarid rivers and semiarid watersheds. Agregated to the Study Group of Semiarid Riversland at Federal University of Paraiba-Brazil.</p>
+				</article>
+				<br/>
+				<article>
+					<h2>Soldier at Brazil's Army</h2>
+					<p class="subDetails">February 2014 - February 2015</p>
+					<p> Compliance with the mandatory year of the Brazilian army.</p>
+				</article>
+			</div>
+			<div class="clear"></div>
+		</section>
+		<br/>
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Key Skills</h1>
+			</div>
+			<br/>
+			<div class="sectionContent">
+				<ul class="keySkills">
+					<li>Ruby</li>
+					<li>Ruby on Rails</li>
+					<li>Java</li>
+					<li>Springboot</li>
+					<li>REST APIs</li>
+					<li>Angular(basic level)</li>
+					<li>Html</li>
+					<li>CSS</li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</section>
+		<br/>
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Education</h1>
+			</div>
+			<br/>
+			<div class="sectionContent">
+				<article>
+					<h2>Federal University of Rio Grande do Norte - Brazil</h2>
+					<p class="subDetails">Master's degree in Geography</p>
+					<p>Dissertation title: Relief Modeling in Hydrographic basins: A semi-detailed approach in Espinharas River Basin, PB - Brazil. Degree started in 2019 and yet in progress, scheduled to finish in march 2021 </p>
+				</article>
+				<br/>
+				<article>
+					<h2>Federal University of Paraiba - Brazil</h2>
+					<p class="subDetails">Bachelor in Geography</p>
+					<p> Graduated with honors, between 2015 and 2018, with focus in geoprocessing and technologies applied to geoprocessing and geography in general.</p>
+				</article>
+			</div>
+			<div class="clear"></div>
+		</section>
+		<br/>
+	</div>
+</div>
+
+</body>
+</html>
+
+
+<!--
+	<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-3753241-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+-->
