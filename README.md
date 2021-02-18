@@ -1,7 +1,6 @@
 # README
 
 This is just and webapp made with ruby and with on rails to setup my resume online.
-Things you may want to cover:
 
 * Ruby version
 
